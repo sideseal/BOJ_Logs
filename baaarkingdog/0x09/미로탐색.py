@@ -35,3 +35,5 @@ def bfs():
     return D[N-1][M-1]
 
 print(bfs())
+
+# 바킹독의 풀이를 보며 익히는 중
