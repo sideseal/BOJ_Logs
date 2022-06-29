@@ -11,7 +11,6 @@ M, N = map(int, input().split())
 B = []
 for _ in range(N):
     B.append(list(map(int, sys.stdin.readline().split())))
-D = [[False for _ in range(M)] for _ in range(N)]
 
 def bfs():
     queue = deque()
